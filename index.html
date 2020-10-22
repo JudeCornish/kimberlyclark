@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Andrex - Jude Cornish</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" href="resources/img/icon.svg" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="vendors/lottie.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<nav>
+					<a href="#">
+						<div class="logo-container">
+							<img src="resources/img/andrexuk-logo.jpg" />
+						</div>
+					</a>
+					<div class="menu-icons">
+						<ion-icon class="menu-outline" name="menu-outline"></ion-icon>
+						<ion-icon class="close-outline" name="close-outline"></ion-icon>
+					</div>
+
+					<ul class="nav-list">
+						<li>
+							<a class="normal-nav _current_" href="#">Home</a>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav">Skin Kind</a>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav">Sustainability</a>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>Products
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">Andrex Toilet Paper Rolls</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Andrex Washlets</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="normal-nav"
+								>Articles
+								<ion-icon
+									class="dropdown-icon"
+									name="caret-down-outline"
+								></ion-icon
+							></a>
+							<ul class="sub-menu">
+								<li>
+									<a class="normal-nav" href="#">Flushability</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">Sustainability</a>
+								</li>
+								<li>
+									<a class="normal-nav" href="#">WaterAid</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="move-right nav-button">
+							<a class="btn" href="#">Contact us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="wrapper">
+			<div class="landing">
+				<div class="landing-left">
+					<div class="landing-left-inner">
+						<h1>
+							Our mission is to improve sustainability and leave a greener
+							pawprint on our planet.
+						</h1>
+						<a class="landing-cta" href="">
+							<div class="landing-cta-inner">
+								Browse our products
+								<div class="cta-arrow-container">
+									<ion-icon
+										class="cta-arrow"
+										name="arrow-forward-outline"
+									></ion-icon>
+								</div></div
+						></a>
+					</div>
+				</div>
+				<div class="landing-right">
+					<div class="animation-container">
+						<div id="animated-tree-img" class="animated-tree-img"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="product show-on-scroll is-visible section section1">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-left">
+						<img src="resources/img/products/andrexpuppy2.jpg" alt="" />
+					</div>
+					<div class="product-right">
+						<div>
+							<h2>Andrex Toilet Paper Rolls</h2>
+							<p>
+								We offer six variations of our loved toilet paper. I mean, who
+								could deny that cuteness overload?
+							</p>
+							<ul class="ul-margin">
+								<li>Andrex® Gentle Clean Toilet Paper</li>
+								<li>Andrex® Classic Clean Toilet Paper</li>
+								<li>Andrex® Natural Pebble Toilet Paper</li>
+								<li>Andrex® Supreme Quilts Toilet Paper</li>
+								<li>Andrex® Skin Kind Toilet Paper</li>
+								<li>Andrex® Touch of Care Toilet Paper</li>
+							</ul>
+							<p>Puppies not included.</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about the process behind the paper
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product show-on-scroll is-visible section section2">
+			<div class="wrapper">
+				<div class="product-inner">
+					<div class="product-right non-mobile">
+						<div class="upper">
+							<div>
+								<h2>Andrex Washlets</h2>
+								<p>
+									We offer four variations of our new washlets. Just look at
+									those puppies...
+								</p>
+								<ul class="ul-margin">
+									<li>Andrex® Gentle Clean Washlets™ Moist Toilet Tissue</li>
+									<li>Andrex® Classic Clean Washlets™ Moist Toilet Tissue</li>
+									<li>Andrex® Supreme Washlets™ Moist Toilet Tissue</li>
+									<li>Andrex® Skin Kind Washlets™ Moist Toilet Tissue</li>
+								</ul>
+								<p>Again, puppies not included.</p>
+							</div>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Our sustainability promise
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+					<div class="product-left">
+						<img src="resources/img/products/pupp3.jpg" alt="" />
+					</div>
+					<div class="product-right mobile">
+						<div class="upper">
+							<h2>LANDSCAPE20</h2>
+							<p>
+								A multi-purpose topsoil, ideal for landscaping and sports field
+								construction projects. Continually developed over the past
+								decade, this BS3882:2015 compliant Topsoil has become the most
+								successful product of its type in the UK.
+							</p>
+						</div>
+						<div class="lower">
+							<a class="landing-cta" href="">
+								<div class="landing-cta-inner">
+									Find out more about LANDSCAPE20
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section show-on-scroll is-visible section1">
+			<div class="wrapper">
+				<div class="about">
+					<div class="about-title">
+						<h1>We're here to help</h1>
+					</div>
+					<div class="about-member-row">
+						<div class="team-member show-on-scroll is-visible">
+							<img src="resources/img/products/pupster.jpg" alt="" />
+							<h2>Pupster</h2>
+							<p class="role">Cheif Executive Officer</p>
+							<p>I like tennis balls.</p>
+						</div>
+						<div class="team-member show-on-scroll is-visible">
+							<img src="resources/img/products/pup4.jpg" alt="" />
+							<h2>Fluffster‭ ‬</h2>
+							<p class="role">National Sales Manager</p>
+							<p>I like my chewy toys, oh and tennis balls.</p>
+						</div>
+						<div class="team-member show-on-scroll is-visible">
+							<img src="resources/img/products/pup5.jpg" alt="" />
+							<h2>Snuffster</h2>
+							<p class="role">TOPSOIL Sales Manager</p>
+							<p>
+								I like long walks and food and tennis balls and fetch and my bed
+								and sofas and chewing shoes and eating and food.
+							</p>
+						</div>
+					</div>
+
+					<div class="about-member-row">
+						<div
+							class="team-member show-on-scroll is-visible team-member-final"
+						>
+							<img src="resources/img/products/me.jpg" alt="" />
+							<h2>Jude Cornish</h2>
+							<p class="role">Hopeful Kimberly Clark Applicant</p>
+							<p>
+								Avid runner, squash player and hopeful Kimberly Clark placement
+								applicant. Persistently hard working and, I also like tennis
+								balls.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section show-on-scroll is-visible section3">
+			<div class="wrapper">
+				<h1>Why have I created this?</h1>
+				<div class="product-inner">
+					<div class="product-right">
+						<div class="upper">
+							<h2>I work hard.</h2>
+							<p>
+								This site serves as a tiny, miniscule insight into the value I
+								can provide to your team in terms of design from a web-based and
+								offline perspective.
+							</p>
+							<p>
+								These design skills and my understanding of modern design
+								practices can be directly transferrable to social media posts,
+								newsletter design, brochure design, client proposals and more.
+							</p>
+							<p>
+								In my view, there is no better way to show you my experience and
+								the value I provide than to code an (although limited)
+								completely bespoke site for the role.
+							</p>
+							<p>
+								Hopefully this also conveys my drive and motivation to work at
+								Kimberly Clark. Again, I must emphasize that this is just one of
+								the digital disciplines that I have experience in.
+							</p>
+							<p>
+								You can view more of my work on my portfolio via the link below.
+								All projects are completely custom and bespoke. Created and
+								maintained by me, operating under Jude Cornish Media.
+							</p>
+							<p>
+								I've also recorded a short video (right), in an attempt to
+								connect a face and a voice to my application.
+							</p>
+						</div>
+						<div class="lower">
+							<a
+								class="landing-cta"
+								href="https://www.judecornish.co.uk"
+								target="_blank"
+							>
+								<div class="landing-cta-inner">
+									Visit my portfolio
+									<div class="cta-arrow-container">
+										<ion-icon
+											class="cta-arrow"
+											name="arrow-forward-outline"
+										></ion-icon>
+									</div></div
+							></a>
+						</div>
+					</div>
+					<div class="product-left">
+						<video
+							controls
+							src="resources/img/WhatsApp Video 2020-10-20 at 3.59.07 PM.mp4"
+						></video>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="wrapper">
+				<div class="footer-inner">
+					<div class="footer-box-container">
+						<a
+							download
+							href="resources/Jude Cornish Digital Marketing TOPSOIL CV.pdf"
+						>
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="download-outline"></ion-icon>
+								</div>
+								<h2>Download my CV</h2>
+							</div>
+						</a>
+					</div>
+					<div class="footer-box-container">
+						<a
+							href="mailto:judecornish@gmail.com?Subject=Your awesome mock-up website"
+							target="_blank"
+						>
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="mail-outline"></ion-icon>
+								</div>
+								<h2>Email me</h2>
+							</div>
+						</a>
+					</div>
+					<div class="footer-box-container">
+						<a href="https://www.judecornish.co.uk" target="_blank">
+							<div class="footer-box">
+								<div class="icon-container">
+									<ion-icon class="icon" name="globe-outline"></ion-icon>
+								</div>
+								<h2>Visit my website</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.0.js"
+			integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+		<script src="app.js"></script>
+		<script>
+			var animation = bodymovin.loadAnimation({
+				container: document.getElementById("animated-tree-img"), // Required
+				path: "resources/img/dog.json", // Required
+				renderer: "svg", // Required
+				loop: true, // Optional
+				autoplay: true, // Optional
+				name: "Hello World", // Name for future reference. Optional.
+			});
+		</script>
+	</body>
+</html>
